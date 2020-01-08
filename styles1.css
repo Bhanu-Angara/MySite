@@ -1,0 +1,156 @@
+body{
+  color: #40514E;
+  margin:0;
+  text-align: center;
+font-family: 'Lobster', cursive;
+padding-bottom:10px;
+}
+h1{
+color:#66BFBF;
+    font-size:5.625em;
+    line-height: 2;
+  margin: 50px auto 0px auto;
+}
+/* 16px = 100% = 1em; */
+/* # 2rem - rem is doesn't affected by upsteam rem is best way to write */
+h2{
+  font-family: 'montserrat',sans-serif;
+  font-size: 2.0rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+h3{
+  font-family: 'montserrat',sans-serif;
+  font-size: 1.5rem;
+  color:#66BFBF;
+}
+
+.top-container{
+  color:#66BFBF;
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin:0;
+
+}
+.middle-container{
+  margin:100px 0;
+}
+hr{
+border-style:none;
+border-top-style: dotted;
+width: 5%;
+border-color:grey;
+border-width:4px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 30px 0 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align:left;
+  line-height: 2;
+}
+.first_cloud1{
+  left:350px;
+  top:2px;
+  bottom: 20px;
+  position: relative;
+}
+
+.first_cloud2{
+bottom:350px;
+  position: relative;
+}
+.profile_image{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+}
+.skill_image{
+width: 200px;
+height:200px;
+border-radius: 50%;
+  float: left;
+    margin-right: 30px;
+}
+.skills-row-image{
+width: 200px;
+height:200px;
+border-radius: 50%;
+float: right;  /*first we created a box to this div block(div-block name:skill-row),
+so when we apply float it automatically changed to its blox size*/
+margin-left: 30px;/*we need a gap between image and text*/
+}
+.profile_class{
+margin-bottom:70px;
+}
+.intro{
+  width:30%;
+  margin:auto;
+}
+/*to get all paragraph lines with some gap*/
+p{
+  line-height: 2;
+}
+.skills{
+  margin-top:50px;
+}
+.btn{
+  color:white;
+  border-radius: 8px;
+  font-family: 'montserrat',sans-serif;
+/*  background-color: #66BFBF;*/
+  background: #11cdd4;
+  background-image: -webkit-linear-gradiant(top,#1111cdd4,#11999e);
+  background-image: -moz-linear-gradiant(top,#1111cdd4,#11999e);
+  background-image: -ms-linear-gradiant(top,#1111cdd4,#11999e);
+  background-image: -o-linear-gradiant (top,#1111cdd4,#11999e);
+  background-image: linear-gradiant(top,#1111cdd4,#11999e);
+  -webkit-border-radius:8;
+  -moz-border-radius:8;
+  text-decoration: none;
+  padding:10px 20px 10px 20px;
+  text-decoration: none;
+  font-size:20px;
+}
+.btm:hover{
+  background: #30e3cb;
+  background-image: -webkit-linear-gradiant(top,#30e3cb,#2bc4ad);
+  background-image: -moz-linear-gradiant(top,#30e3cb,#2bc4ad);
+  background-image: -ms-linear-gradiant(top,#30e3cb,#2bc4ad);
+  background-image: -o-linear-gradiant(top,#30e3cb,#2bc4ad);
+  background-image: linear-gradiant(top,#30e3cb,#2bc4ad);
+  text-decoration: none;
+}
+.contact-me{
+  margin-top:5  %;
+  margin-bottom: 10%;
+}
+.contact-details{
+  width:30%;
+  margin:auto auto 30px auto ;
+}
+.get_in_touch{
+  margin-bottom: 5%;
+}
+a{
+  color:#11999E;
+  font-family: 'montserrat',sans-serif;
+  margin:10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.copy-right{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+/*
+.code-clear-description{
+  clear: left; }/*to clear the float (image is left to the text we give left)*/
